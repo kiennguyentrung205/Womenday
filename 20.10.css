@@ -14,7 +14,7 @@
     min-height: 100vh;
     background: #000;
   }
-  .container {
+  .container-fluid{
     position: relative;
     top: 100px;
     height: 400px;
@@ -23,13 +23,13 @@
     justify-content: center;
    
   }
-  .container .cloud {
+  .container-fluid .cloud {
     position: relative;
     width: 300px;
     z-index: 100;
     filter: drop-shadow(0 0 35px var(--clr));
   }
-  .container .cloud h2 {
+  .container-fluid .cloud h2 {
     position: absolute;
     color: var(--clr);
     left: 50%;
@@ -44,7 +44,7 @@
     text-transform: uppercase;
     background: var(--clr);
   }
-  .container .cloud h2::before {
+  .container-fluid .cloud h2::before {
     content: "";
     position: absolute;
     top: -115px;
@@ -55,7 +55,7 @@
     height: 100px;
     background: var(--clr);
   }
-  .container .cloud h2::after {
+  .container-fluid .cloud h2::after {
     content: "";
     position: absolute;
     top: -150px;
@@ -84,7 +84,7 @@
   }
  
  
-  .container .cloud .drop {
+  .container-fluid .cloud .drop {
     position: absolute;
     top: 60px;
     height: 20px;
